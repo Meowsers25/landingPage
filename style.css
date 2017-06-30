@@ -4,6 +4,7 @@
 
 
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -40,5 +41,53 @@ li .active {
     background-color: #4CAF50;
 }
 h1 {
+    
+}
+
+.form {
+    padding: 50px 50px 100px 50px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 700px;
+    height: 250px;
+    background-color: lightgrey;
+    margin: auto;
+    
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.img {
+    padding: 50px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.flex-container1 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+    margin: auto;
+    
+}
+
+.flex-item1 {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
     
 }
