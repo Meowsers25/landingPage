@@ -35,6 +35,7 @@ li {
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
+
 }
 .flex-container1 {
 	display: -webkit-flex;
@@ -113,4 +114,15 @@ h3 {
 .a1 {
 	text-decoration: none;
 	color: black;
+}
+
+article {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 800px) {
+  p {
+      font-size: 1.25rem;
+  }  
 }
